@@ -64,5 +64,49 @@
 		"password": "123456",
 		"role": "sales",
 		"status": "active"
+	},
+	{
+		"id": 7,
+		"employeeCode": "EMP007",
+		"name": "Nguyen Thanh Lam",
+		"email": "lam.nguyen@example.com",
+		"phone": "0900000027",
+		"username": "lamnguyen7",
+		"password": "123456",
+		"role": "sales",
+		"status": "active"
+	},
+	{
+		"id": 8,
+		"employeeCode": "EMP008",
+		"name": "Tran Ngoc Han",
+		"email": "han.tran@example.com",
+		"phone": "0900000028",
+		"username": "hantran8",
+		"password": "123456",
+		"role": "sales",
+		"status": "active"
+	},
+	{
+		"id": 9,
+		"employeeCode": "EMP009",
+		"name": "Le Minh Tri",
+		"email": "tri.le@example.com",
+		"phone": "0900000029",
+		"username": "trile9",
+		"password": "123456",
+		"role": "sales",
+		"status": "active"
+	},
+	{
+		"id": 10,
+		"employeeCode": "EMP010",
+		"name": "Vo Quoc Viet",
+		"email": "viet.vo@example.com",
+		"phone": "0900000030",
+		"username": "vietvo10",
+		"password": "123456",
+		"role": "admin",
+		"status": "active"
 	}
 ]

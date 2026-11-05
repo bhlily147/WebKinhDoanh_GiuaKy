@@ -1,8 +1,963 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <reviews>
-	<review><id>1</id><product_id>1</product_id><customer_id>1</customer_id><rating>5</rating><comment>Ba lô chắc chắn, đúng mô tả.</comment><date>2026-10-01</date></review>
-	<review><id>2</id><product_id>1</product_id><customer_id>2</customer_id><rating>4</rating><comment>Màu đẹp, giao hàng nhanh.</comment><date>2026-10-03</date></review>
-	<review><id>3</id><product_id>17</product_id><customer_id>3</customer_id><rating>5</rating><comment>Áo khoác vừa vặn và nhẹ.</comment><date>2026-10-05</date></review>
-	<review><id>4</id><product_id>17</product_id><customer_id>4</customer_id><rating>4</rating><comment>Chất liệu tốt, màu giống ảnh.</comment><date>2026-10-07</date></review>
-	<review><id>5</id><product_id>3</product_id><customer_id>5</customer_id><rating>5</rating><comment>Áo khoác đẹp và dễ mặc.</comment><date>2026-10-08</date></review>
+	<review>
+		<id>1</id>
+		<product_id>1</product_id>
+		<customer_id>9</customer_id>
+		<rating>5</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-10-26</date>
+	</review>
+	<review>
+		<id>2</id>
+		<product_id>1</product_id>
+		<customer_id>16</customer_id>
+		<rating>2</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-03-06</date>
+	</review>
+	<review>
+		<id>3</id>
+		<product_id>1</product_id>
+		<customer_id>23</customer_id>
+		<rating>4</rating>
+		<comment>Sản phẩm đúng mô tả, đóng gói cẩn thận.</comment>
+		<date>2026-05-09</date>
+	</review>
+	<review>
+		<id>4</id>
+		<product_id>1</product_id>
+		<customer_id>30</customer_id>
+		<rating>1</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-01-16</date>
+	</review>
+	<review>
+		<id>5</id>
+		<product_id>1</product_id>
+		<customer_id>37</customer_id>
+		<rating>2</rating>
+		<comment>Màu sắc đẹp và giống hình ảnh.</comment>
+		<date>2026-08-19</date>
+	</review>
+	<review>
+		<id>6</id>
+		<product_id>1</product_id>
+		<customer_id>44</customer_id>
+		<rating>5</rating>
+		<comment>Kích thước vừa vặn, dùng rất tiện.</comment>
+		<date>2026-08-06</date>
+	</review>
+	<review>
+		<id>7</id>
+		<product_id>2</product_id>
+		<customer_id>2</customer_id>
+		<rating>4</rating>
+		<comment>Giao đúng sản phẩm và đủ phụ kiện.</comment>
+		<date>2026-08-14</date>
+	</review>
+	<review>
+		<id>8</id>
+		<product_id>2</product_id>
+		<customer_id>9</customer_id>
+		<rating>3</rating>
+		<comment>Rất đáng tiền, chất lượng vượt mong đợi.</comment>
+		<date>2026-06-27</date>
+	</review>
+	<review>
+		<id>9</id>
+		<product_id>2</product_id>
+		<customer_id>16</customer_id>
+		<rating>1</rating>
+		<comment>Rất đáng tiền, chất lượng vượt mong đợi.</comment>
+		<date>2026-03-08</date>
+	</review>
+	<review>
+		<id>10</id>
+		<product_id>2</product_id>
+		<customer_id>23</customer_id>
+		<rating>5</rating>
+		<comment>Giao hàng nhanh, sản phẩm không bị lỗi.</comment>
+		<date>2026-04-01</date>
+	</review>
+	<review>
+		<id>11</id>
+		<product_id>2</product_id>
+		<customer_id>30</customer_id>
+		<rating>5</rating>
+		<comment>Rất đáng tiền, chất lượng vượt mong đợi.</comment>
+		<date>2026-09-26</date>
+	</review>
+	<review>
+		<id>12</id>
+		<product_id>2</product_id>
+		<customer_id>37</customer_id>
+		<rating>4</rating>
+		<comment>Chất lượng tốt, sử dụng rất ổn.</comment>
+		<date>2026-04-17</date>
+	</review>
+	<review>
+		<id>13</id>
+		<product_id>3</product_id>
+		<customer_id>45</customer_id>
+		<rating>1</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-10-22</date>
+	</review>
+	<review>
+		<id>14</id>
+		<product_id>3</product_id>
+		<customer_id>2</customer_id>
+		<rating>4</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-07-09</date>
+	</review>
+	<review>
+		<id>15</id>
+		<product_id>3</product_id>
+		<customer_id>9</customer_id>
+		<rating>2</rating>
+		<comment>Màu sắc đẹp và giống hình ảnh.</comment>
+		<date>2026-10-20</date>
+	</review>
+	<review>
+		<id>16</id>
+		<product_id>3</product_id>
+		<customer_id>16</customer_id>
+		<rating>3</rating>
+		<comment>Giá hợp lý so với chất lượng.</comment>
+		<date>2026-02-03</date>
+	</review>
+	<review>
+		<id>17</id>
+		<product_id>3</product_id>
+		<customer_id>23</customer_id>
+		<rating>1</rating>
+		<comment>Đúng mẫu đã đặt, sẽ tiếp tục ủng hộ.</comment>
+		<date>2026-01-08</date>
+	</review>
+	<review>
+		<id>18</id>
+		<product_id>3</product_id>
+		<customer_id>30</customer_id>
+		<rating>4</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-02-19</date>
+	</review>
+	<review>
+		<id>19</id>
+		<product_id>4</product_id>
+		<customer_id>38</customer_id>
+		<rating>1</rating>
+		<comment>Rất đáng tiền, chất lượng vượt mong đợi.</comment>
+		<date>2026-06-04</date>
+	</review>
+	<review>
+		<id>20</id>
+		<product_id>4</product_id>
+		<customer_id>45</customer_id>
+		<rating>1</rating>
+		<comment>Sản phẩm dùng được, nhưng giao hàng hơi lâu.</comment>
+		<date>2026-08-13</date>
+	</review>
+	<review>
+		<id>21</id>
+		<product_id>4</product_id>
+		<customer_id>2</customer_id>
+		<rating>1</rating>
+		<comment>Rất đáng tiền, chất lượng vượt mong đợi.</comment>
+		<date>2026-02-01</date>
+	</review>
+	<review>
+		<id>22</id>
+		<product_id>4</product_id>
+		<customer_id>9</customer_id>
+		<rating>2</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-10-20</date>
+	</review>
+	<review>
+		<id>23</id>
+		<product_id>4</product_id>
+		<customer_id>16</customer_id>
+		<rating>1</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-03-28</date>
+	</review>
+	<review>
+		<id>24</id>
+		<product_id>4</product_id>
+		<customer_id>23</customer_id>
+		<rating>3</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-05-18</date>
+	</review>
+	<review>
+		<id>25</id>
+		<product_id>5</product_id>
+		<customer_id>31</customer_id>
+		<rating>3</rating>
+		<comment>Màu sắc đẹp và giống hình ảnh.</comment>
+		<date>2026-01-02</date>
+	</review>
+	<review>
+		<id>26</id>
+		<product_id>5</product_id>
+		<customer_id>38</customer_id>
+		<rating>4</rating>
+		<comment>Thiết kế tiện dụng, phù hợp nhu cầu hằng ngày.</comment>
+		<date>2026-03-14</date>
+	</review>
+	<review>
+		<id>27</id>
+		<product_id>5</product_id>
+		<customer_id>45</customer_id>
+		<rating>4</rating>
+		<comment>Thiết kế tiện dụng, phù hợp nhu cầu hằng ngày.</comment>
+		<date>2026-10-18</date>
+	</review>
+	<review>
+		<id>28</id>
+		<product_id>5</product_id>
+		<customer_id>2</customer_id>
+		<rating>3</rating>
+		<comment>Mình khá hài lòng với lần mua này.</comment>
+		<date>2026-10-21</date>
+	</review>
+	<review>
+		<id>29</id>
+		<product_id>5</product_id>
+		<customer_id>9</customer_id>
+		<rating>4</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-09-18</date>
+	</review>
+	<review>
+		<id>30</id>
+		<product_id>5</product_id>
+		<customer_id>16</customer_id>
+		<rating>3</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-06-01</date>
+	</review>
+	<review>
+		<id>31</id>
+		<product_id>6</product_id>
+		<customer_id>24</customer_id>
+		<rating>3</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-10-07</date>
+	</review>
+	<review>
+		<id>32</id>
+		<product_id>6</product_id>
+		<customer_id>31</customer_id>
+		<rating>3</rating>
+		<comment>Sản phẩm đúng mô tả, đóng gói cẩn thận.</comment>
+		<date>2026-02-20</date>
+	</review>
+	<review>
+		<id>33</id>
+		<product_id>6</product_id>
+		<customer_id>38</customer_id>
+		<rating>5</rating>
+		<comment>Đúng mẫu đã đặt, sẽ tiếp tục ủng hộ.</comment>
+		<date>2026-04-06</date>
+	</review>
+	<review>
+		<id>34</id>
+		<product_id>6</product_id>
+		<customer_id>45</customer_id>
+		<rating>2</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-01-13</date>
+	</review>
+	<review>
+		<id>35</id>
+		<product_id>6</product_id>
+		<customer_id>2</customer_id>
+		<rating>5</rating>
+		<comment>Chất lượng tốt, sử dụng rất ổn.</comment>
+		<date>2026-09-15</date>
+	</review>
+	<review>
+		<id>36</id>
+		<product_id>6</product_id>
+		<customer_id>9</customer_id>
+		<rating>5</rating>
+		<comment>Sản phẩm dùng được, nhưng giao hàng hơi lâu.</comment>
+		<date>2026-03-11</date>
+	</review>
+	<review>
+		<id>37</id>
+		<product_id>7</product_id>
+		<customer_id>17</customer_id>
+		<rating>3</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-07-20</date>
+	</review>
+	<review>
+		<id>38</id>
+		<product_id>7</product_id>
+		<customer_id>24</customer_id>
+		<rating>3</rating>
+		<comment>Màu sắc đẹp và giống hình ảnh.</comment>
+		<date>2026-10-14</date>
+	</review>
+	<review>
+		<id>39</id>
+		<product_id>7</product_id>
+		<customer_id>31</customer_id>
+		<rating>1</rating>
+		<comment>Thiết kế tiện dụng, phù hợp nhu cầu hằng ngày.</comment>
+		<date>2026-03-12</date>
+	</review>
+	<review>
+		<id>40</id>
+		<product_id>7</product_id>
+		<customer_id>38</customer_id>
+		<rating>5</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-10-27</date>
+	</review>
+	<review>
+		<id>41</id>
+		<product_id>7</product_id>
+		<customer_id>45</customer_id>
+		<rating>4</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-08-15</date>
+	</review>
+	<review>
+		<id>42</id>
+		<product_id>7</product_id>
+		<customer_id>2</customer_id>
+		<rating>4</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-05-14</date>
+	</review>
+	<review>
+		<id>43</id>
+		<product_id>8</product_id>
+		<customer_id>10</customer_id>
+		<rating>2</rating>
+		<comment>Giao hàng nhanh, sản phẩm không bị lỗi.</comment>
+		<date>2026-03-24</date>
+	</review>
+	<review>
+		<id>44</id>
+		<product_id>8</product_id>
+		<customer_id>17</customer_id>
+		<rating>5</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-02-07</date>
+	</review>
+	<review>
+		<id>45</id>
+		<product_id>8</product_id>
+		<customer_id>24</customer_id>
+		<rating>2</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-10-05</date>
+	</review>
+	<review>
+		<id>46</id>
+		<product_id>8</product_id>
+		<customer_id>31</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-06-04</date>
+	</review>
+	<review>
+		<id>47</id>
+		<product_id>8</product_id>
+		<customer_id>38</customer_id>
+		<rating>2</rating>
+		<comment>Thiết kế tiện dụng, phù hợp nhu cầu hằng ngày.</comment>
+		<date>2026-01-06</date>
+	</review>
+	<review>
+		<id>48</id>
+		<product_id>8</product_id>
+		<customer_id>45</customer_id>
+		<rating>3</rating>
+		<comment>Kích thước vừa vặn, dùng rất tiện.</comment>
+		<date>2026-01-20</date>
+	</review>
+	<review>
+		<id>49</id>
+		<product_id>9</product_id>
+		<customer_id>3</customer_id>
+		<rating>3</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-10-05</date>
+	</review>
+	<review>
+		<id>50</id>
+		<product_id>9</product_id>
+		<customer_id>10</customer_id>
+		<rating>4</rating>
+		<comment>Rất đáng tiền, chất lượng vượt mong đợi.</comment>
+		<date>2026-07-22</date>
+	</review>
+	<review>
+		<id>51</id>
+		<product_id>9</product_id>
+		<customer_id>17</customer_id>
+		<rating>1</rating>
+		<comment>Mình khá hài lòng với lần mua này.</comment>
+		<date>2026-06-14</date>
+	</review>
+	<review>
+		<id>52</id>
+		<product_id>9</product_id>
+		<customer_id>24</customer_id>
+		<rating>1</rating>
+		<comment>Giá hợp lý so với chất lượng.</comment>
+		<date>2026-08-14</date>
+	</review>
+	<review>
+		<id>53</id>
+		<product_id>9</product_id>
+		<customer_id>31</customer_id>
+		<rating>1</rating>
+		<comment>Giá hợp lý so với chất lượng.</comment>
+		<date>2026-01-10</date>
+	</review>
+	<review>
+		<id>54</id>
+		<product_id>9</product_id>
+		<customer_id>38</customer_id>
+		<rating>1</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-10-17</date>
+	</review>
+	<review>
+		<id>55</id>
+		<product_id>10</product_id>
+		<customer_id>46</customer_id>
+		<rating>3</rating>
+		<comment>Thiết kế tiện dụng, phù hợp nhu cầu hằng ngày.</comment>
+		<date>2026-09-03</date>
+	</review>
+	<review>
+		<id>56</id>
+		<product_id>10</product_id>
+		<customer_id>3</customer_id>
+		<rating>1</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-05-26</date>
+	</review>
+	<review>
+		<id>57</id>
+		<product_id>10</product_id>
+		<customer_id>10</customer_id>
+		<rating>3</rating>
+		<comment>Giao đúng sản phẩm và đủ phụ kiện.</comment>
+		<date>2026-04-15</date>
+	</review>
+	<review>
+		<id>58</id>
+		<product_id>10</product_id>
+		<customer_id>17</customer_id>
+		<rating>5</rating>
+		<comment>Sản phẩm đúng mô tả, đóng gói cẩn thận.</comment>
+		<date>2026-09-08</date>
+	</review>
+	<review>
+		<id>59</id>
+		<product_id>10</product_id>
+		<customer_id>24</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm chắc chắn, cảm giác sử dụng tốt.</comment>
+		<date>2026-07-28</date>
+	</review>
+	<review>
+		<id>60</id>
+		<product_id>10</product_id>
+		<customer_id>31</customer_id>
+		<rating>3</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-04-23</date>
+	</review>
+	<review>
+		<id>61</id>
+		<product_id>11</product_id>
+		<customer_id>39</customer_id>
+		<rating>5</rating>
+		<comment>Thiết kế tiện dụng, phù hợp nhu cầu hằng ngày.</comment>
+		<date>2026-03-20</date>
+	</review>
+	<review>
+		<id>62</id>
+		<product_id>11</product_id>
+		<customer_id>46</customer_id>
+		<rating>3</rating>
+		<comment>Giao hàng nhanh, sản phẩm không bị lỗi.</comment>
+		<date>2026-10-25</date>
+	</review>
+	<review>
+		<id>63</id>
+		<product_id>11</product_id>
+		<customer_id>3</customer_id>
+		<rating>4</rating>
+		<comment>Sản phẩm nhìn ngoài đẹp hơn mong đợi.</comment>
+		<date>2026-02-15</date>
+	</review>
+	<review>
+		<id>64</id>
+		<product_id>11</product_id>
+		<customer_id>10</customer_id>
+		<rating>5</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-02-07</date>
+	</review>
+	<review>
+		<id>65</id>
+		<product_id>11</product_id>
+		<customer_id>17</customer_id>
+		<rating>4</rating>
+		<comment>Giao đúng sản phẩm và đủ phụ kiện.</comment>
+		<date>2026-09-08</date>
+	</review>
+	<review>
+		<id>66</id>
+		<product_id>11</product_id>
+		<customer_id>24</customer_id>
+		<rating>4</rating>
+		<comment>Rất đáng tiền, chất lượng vượt mong đợi.</comment>
+		<date>2026-09-07</date>
+	</review>
+	<review>
+		<id>67</id>
+		<product_id>12</product_id>
+		<customer_id>32</customer_id>
+		<rating>2</rating>
+		<comment>Màu hơi khác ảnh một chút nhưng vẫn đẹp.</comment>
+		<date>2026-03-21</date>
+	</review>
+	<review>
+		<id>68</id>
+		<product_id>12</product_id>
+		<customer_id>39</customer_id>
+		<rating>2</rating>
+		<comment>Giao đúng sản phẩm và đủ phụ kiện.</comment>
+		<date>2026-03-26</date>
+	</review>
+	<review>
+		<id>69</id>
+		<product_id>12</product_id>
+		<customer_id>46</customer_id>
+		<rating>2</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-02-25</date>
+	</review>
+	<review>
+		<id>70</id>
+		<product_id>12</product_id>
+		<customer_id>3</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm đúng mô tả, đóng gói cẩn thận.</comment>
+		<date>2026-01-28</date>
+	</review>
+	<review>
+		<id>71</id>
+		<product_id>12</product_id>
+		<customer_id>10</customer_id>
+		<rating>3</rating>
+		<comment>Sản phẩm chắc chắn, cảm giác sử dụng tốt.</comment>
+		<date>2026-08-21</date>
+	</review>
+	<review>
+		<id>72</id>
+		<product_id>12</product_id>
+		<customer_id>17</customer_id>
+		<rating>1</rating>
+		<comment>Kích thước vừa vặn, dùng rất tiện.</comment>
+		<date>2026-10-08</date>
+	</review>
+	<review>
+		<id>73</id>
+		<product_id>13</product_id>
+		<customer_id>25</customer_id>
+		<rating>1</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-10-01</date>
+	</review>
+	<review>
+		<id>74</id>
+		<product_id>13</product_id>
+		<customer_id>32</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm chắc chắn, cảm giác sử dụng tốt.</comment>
+		<date>2026-06-26</date>
+	</review>
+	<review>
+		<id>75</id>
+		<product_id>13</product_id>
+		<customer_id>39</customer_id>
+		<rating>1</rating>
+		<comment>Sản phẩm chắc chắn, cảm giác sử dụng tốt.</comment>
+		<date>2026-08-02</date>
+	</review>
+	<review>
+		<id>76</id>
+		<product_id>13</product_id>
+		<customer_id>46</customer_id>
+		<rating>2</rating>
+		<comment>Giá hợp lý so với chất lượng.</comment>
+		<date>2026-08-03</date>
+	</review>
+	<review>
+		<id>77</id>
+		<product_id>13</product_id>
+		<customer_id>3</customer_id>
+		<rating>1</rating>
+		<comment>Rất đáng tiền, chất lượng vượt mong đợi.</comment>
+		<date>2026-02-12</date>
+	</review>
+	<review>
+		<id>78</id>
+		<product_id>13</product_id>
+		<customer_id>10</customer_id>
+		<rating>3</rating>
+		<comment>Không hoàn toàn như kỳ vọng nhưng vẫn dùng tốt.</comment>
+		<date>2026-08-16</date>
+	</review>
+	<review>
+		<id>79</id>
+		<product_id>14</product_id>
+		<customer_id>18</customer_id>
+		<rating>4</rating>
+		<comment>Màu hơi khác ảnh một chút nhưng vẫn đẹp.</comment>
+		<date>2026-05-22</date>
+	</review>
+	<review>
+		<id>80</id>
+		<product_id>14</product_id>
+		<customer_id>25</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm chắc chắn, cảm giác sử dụng tốt.</comment>
+		<date>2026-10-28</date>
+	</review>
+	<review>
+		<id>81</id>
+		<product_id>14</product_id>
+		<customer_id>32</customer_id>
+		<rating>2</rating>
+		<comment>Màu sắc đẹp và giống hình ảnh.</comment>
+		<date>2026-03-24</date>
+	</review>
+	<review>
+		<id>82</id>
+		<product_id>14</product_id>
+		<customer_id>39</customer_id>
+		<rating>1</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-08-16</date>
+	</review>
+	<review>
+		<id>83</id>
+		<product_id>14</product_id>
+		<customer_id>46</customer_id>
+		<rating>1</rating>
+		<comment>Màu sắc đẹp và giống hình ảnh.</comment>
+		<date>2026-08-26</date>
+	</review>
+	<review>
+		<id>84</id>
+		<product_id>14</product_id>
+		<customer_id>3</customer_id>
+		<rating>4</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-06-08</date>
+	</review>
+	<review>
+		<id>85</id>
+		<product_id>15</product_id>
+		<customer_id>11</customer_id>
+		<rating>1</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-09-06</date>
+	</review>
+	<review>
+		<id>86</id>
+		<product_id>15</product_id>
+		<customer_id>18</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-02-15</date>
+	</review>
+	<review>
+		<id>87</id>
+		<product_id>15</product_id>
+		<customer_id>25</customer_id>
+		<rating>1</rating>
+		<comment>Màu hơi khác ảnh một chút nhưng vẫn đẹp.</comment>
+		<date>2026-09-08</date>
+	</review>
+	<review>
+		<id>88</id>
+		<product_id>15</product_id>
+		<customer_id>32</customer_id>
+		<rating>4</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-10-03</date>
+	</review>
+	<review>
+		<id>89</id>
+		<product_id>15</product_id>
+		<customer_id>39</customer_id>
+		<rating>4</rating>
+		<comment>Kích thước vừa vặn, dùng rất tiện.</comment>
+		<date>2026-01-06</date>
+	</review>
+	<review>
+		<id>90</id>
+		<product_id>15</product_id>
+		<customer_id>46</customer_id>
+		<rating>1</rating>
+		<comment>Đúng mẫu đã đặt, sẽ tiếp tục ủng hộ.</comment>
+		<date>2026-05-08</date>
+	</review>
+	<review>
+		<id>91</id>
+		<product_id>16</product_id>
+		<customer_id>4</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm nhìn ngoài đẹp hơn mong đợi.</comment>
+		<date>2026-09-28</date>
+	</review>
+	<review>
+		<id>92</id>
+		<product_id>16</product_id>
+		<customer_id>11</customer_id>
+		<rating>3</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-07-13</date>
+	</review>
+	<review>
+		<id>93</id>
+		<product_id>16</product_id>
+		<customer_id>18</customer_id>
+		<rating>4</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-05-04</date>
+	</review>
+	<review>
+		<id>94</id>
+		<product_id>16</product_id>
+		<customer_id>25</customer_id>
+		<rating>1</rating>
+		<comment>Chất lượng tốt, sử dụng rất ổn.</comment>
+		<date>2026-04-03</date>
+	</review>
+	<review>
+		<id>95</id>
+		<product_id>16</product_id>
+		<customer_id>32</customer_id>
+		<rating>3</rating>
+		<comment>Không hoàn toàn như kỳ vọng nhưng vẫn dùng tốt.</comment>
+		<date>2026-09-11</date>
+	</review>
+	<review>
+		<id>96</id>
+		<product_id>16</product_id>
+		<customer_id>39</customer_id>
+		<rating>5</rating>
+		<comment>Màu hơi khác ảnh một chút nhưng vẫn đẹp.</comment>
+		<date>2026-05-12</date>
+	</review>
+	<review>
+		<id>97</id>
+		<product_id>17</product_id>
+		<customer_id>47</customer_id>
+		<rating>5</rating>
+		<comment>Kích thước vừa vặn, dùng rất tiện.</comment>
+		<date>2026-05-25</date>
+	</review>
+	<review>
+		<id>98</id>
+		<product_id>17</product_id>
+		<customer_id>4</customer_id>
+		<rating>5</rating>
+		<comment>Đúng mẫu đã đặt, sẽ tiếp tục ủng hộ.</comment>
+		<date>2026-09-16</date>
+	</review>
+	<review>
+		<id>99</id>
+		<product_id>17</product_id>
+		<customer_id>11</customer_id>
+		<rating>2</rating>
+		<comment>Màu hơi khác ảnh một chút nhưng vẫn đẹp.</comment>
+		<date>2026-04-01</date>
+	</review>
+	<review>
+		<id>100</id>
+		<product_id>17</product_id>
+		<customer_id>18</customer_id>
+		<rating>4</rating>
+		<comment>Màu sắc đẹp và giống hình ảnh.</comment>
+		<date>2026-09-11</date>
+	</review>
+	<review>
+		<id>101</id>
+		<product_id>17</product_id>
+		<customer_id>25</customer_id>
+		<rating>5</rating>
+		<comment>Chất liệu mềm và dễ sử dụng.</comment>
+		<date>2026-09-15</date>
+	</review>
+	<review>
+		<id>102</id>
+		<product_id>17</product_id>
+		<customer_id>32</customer_id>
+		<rating>2</rating>
+		<comment>Kích thước vừa vặn, dùng rất tiện.</comment>
+		<date>2026-03-13</date>
+	</review>
+	<review>
+		<id>103</id>
+		<product_id>18</product_id>
+		<customer_id>40</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-05-22</date>
+	</review>
+	<review>
+		<id>104</id>
+		<product_id>18</product_id>
+		<customer_id>47</customer_id>
+		<rating>2</rating>
+		<comment>Không hoàn toàn như kỳ vọng nhưng vẫn dùng tốt.</comment>
+		<date>2026-07-22</date>
+	</review>
+	<review>
+		<id>105</id>
+		<product_id>18</product_id>
+		<customer_id>4</customer_id>
+		<rating>2</rating>
+		<comment>Thiết kế đẹp, chất liệu khá chắc chắn.</comment>
+		<date>2026-01-06</date>
+	</review>
+	<review>
+		<id>106</id>
+		<product_id>18</product_id>
+		<customer_id>11</customer_id>
+		<rating>5</rating>
+		<comment>Sản phẩm chắc chắn, cảm giác sử dụng tốt.</comment>
+		<date>2026-08-11</date>
+	</review>
+	<review>
+		<id>107</id>
+		<product_id>18</product_id>
+		<customer_id>18</customer_id>
+		<rating>2</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-05-01</date>
+	</review>
+	<review>
+		<id>108</id>
+		<product_id>18</product_id>
+		<customer_id>25</customer_id>
+		<rating>2</rating>
+		<comment>Giá hợp lý so với chất lượng.</comment>
+		<date>2026-09-04</date>
+	</review>
+	<review>
+		<id>109</id>
+		<product_id>19</product_id>
+		<customer_id>33</customer_id>
+		<rating>1</rating>
+		<comment>Giá hợp lý so với chất lượng.</comment>
+		<date>2026-05-11</date>
+	</review>
+	<review>
+		<id>110</id>
+		<product_id>19</product_id>
+		<customer_id>40</customer_id>
+		<rating>1</rating>
+		<comment>Sản phẩm chắc chắn, cảm giác sử dụng tốt.</comment>
+		<date>2026-07-21</date>
+	</review>
+	<review>
+		<id>111</id>
+		<product_id>19</product_id>
+		<customer_id>47</customer_id>
+		<rating>4</rating>
+		<comment>Giá hợp lý so với chất lượng.</comment>
+		<date>2026-03-07</date>
+	</review>
+	<review>
+		<id>112</id>
+		<product_id>19</product_id>
+		<customer_id>4</customer_id>
+		<rating>1</rating>
+		<comment>Màu sắc đẹp và giống hình ảnh.</comment>
+		<date>2026-01-06</date>
+	</review>
+	<review>
+		<id>113</id>
+		<product_id>19</product_id>
+		<customer_id>11</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm chắc chắn, cảm giác sử dụng tốt.</comment>
+		<date>2026-03-01</date>
+	</review>
+	<review>
+		<id>114</id>
+		<product_id>19</product_id>
+		<customer_id>18</customer_id>
+		<rating>2</rating>
+		<comment>Sản phẩm nhìn ngoài đẹp hơn mong đợi.</comment>
+		<date>2026-09-13</date>
+	</review>
+	<review>
+		<id>115</id>
+		<product_id>20</product_id>
+		<customer_id>26</customer_id>
+		<rating>4</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-03-09</date>
+	</review>
+	<review>
+		<id>116</id>
+		<product_id>20</product_id>
+		<customer_id>33</customer_id>
+		<rating>2</rating>
+		<comment>Chất lượng tốt, sử dụng rất ổn.</comment>
+		<date>2026-08-24</date>
+	</review>
+	<review>
+		<id>117</id>
+		<product_id>20</product_id>
+		<customer_id>40</customer_id>
+		<rating>4</rating>
+		<comment>Đóng gói đẹp, nhân viên hỗ trợ nhiệt tình.</comment>
+		<date>2026-04-22</date>
+	</review>
+	<review>
+		<id>118</id>
+		<product_id>20</product_id>
+		<customer_id>47</customer_id>
+		<rating>4</rating>
+		<comment>Sản phẩm tạm ổn, cần cải thiện phần hoàn thiện.</comment>
+		<date>2026-02-07</date>
+	</review>
+	<review>
+		<id>119</id>
+		<product_id>20</product_id>
+		<customer_id>4</customer_id>
+		<rating>4</rating>
+		<comment>Mình khá hài lòng với lần mua này.</comment>
+		<date>2026-02-16</date>
+	</review>
+	<review>
+		<id>120</id>
+		<product_id>20</product_id>
+		<customer_id>11</customer_id>
+		<rating>4</rating>
+		<comment>Sản phẩm đúng mô tả, đóng gói cẩn thận.</comment>
+		<date>2026-09-28</date>
+	</review>
 </reviews>
