@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="description" content="Danh sách sản phẩm và dữ liệu bán hàng">
+		<title>Danh sách sản phẩm</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-content">
+				<a class="brand" href="#home">Cửa hàng</a>
+				<nav aria-label="Điều hướng chính">
+					<button id="cartButton" class="nav-button" type="button">Cart (<span id="cartCount">0</span>)</button>
+					<button id="customerLoginButton" class="nav-button" type="button">Khách hàng</button>
+					<button id="loginButton" class="nav-button" type="button">Admin</button>
+				</nav>
+			</div>
+		</header>
+		<main id="home">
+			<section class="page-heading container" aria-labelledby="pageTitle">
+				<p class="eyebrow">Danh mục sản phẩm</p>
+				<h1 id="pageTitle">Sản phẩm</h1>
+				<p>Tra cứu sản phẩm theo giá, màu sắc, đánh giá và danh mục.</p>
+			</section>
+			<section id="products" class="container content-layout" aria-labelledby="productsTitle">
+				<aside class="filter-panel">
+					<h2>Tìm kiếm nâng cao</h2>
+					<form id="searchForm">
+						<label for="keyword">Từ khóa</label>
+						<input id="keyword" name="keyword" type="search" placeholder="Tên sản phẩm">
+						<label for="category">Danh mục</label>
+						<select id="category" name="category">
+							<option value="">Tất cả danh mục</option>
+						</select>
+						<fieldset>
+							<legend>Khoảng giá (USD)</legend>
+							<div class="price-fields">
+								<input id="minPrice" name="minPrice" type="number" min="0" step="0.01" placeholder="Từ">
+								<input id="maxPrice" name="maxPrice" type="number" min="0" step="0.01" placeholder="Đến">
+							</div>
+						</fieldset>
+						<label for="color">Màu sắc</label>
+						<select id="color" name="color">
+							<option value="">Tất cả màu</option>
+						</select>
+						<label for="rating">Rating tối thiểu</label>
+						<select id="rating" name="rating">
+							<option value="0">Tất cả rating</option>
+							<option value="4">Từ 4 sao</option>
+							<option value="3">Từ 3 sao</option>
+							<option value="2">Từ 2 sao</option>
+						</select>
+						<div class="filter-actions">
+							<button class="button button-primary" type="submit">Tìm kiếm</button>
+							<button class="button button-secondary" id="resetFilters" type="reset">Xóa lọc</button>
+						</div>
+					</form>
+				</aside>
+				<section class="products-section" aria-labelledby="productsTitle">
+					<div class="section-heading">
+						<h2 id="productsTitle">Danh sách sản phẩm</h2>
+						<p id="resultSummary" aria-live="polite"></p>
+					</div>
+					<div id="skeletonGrid" class="product-grid skeleton-grid" aria-label="Đang tải sản phẩm">
+						<div class="skeleton-card"></div>
+						<div class="skeleton-card"></div>
+						<div class="skeleton-card"></div>
+						<div class="skeleton-card"></div>
+					</div>
+					<div id="productGrid" class="product-grid" aria-live="polite"></div>
+					<p id="emptyState" class="empty-state" hidden>Không tìm thấy sản phẩm phù hợp.</p>
+				</section>
+			</section>
+		</main>
+		<aside id="miniCart" class="mini-cart" aria-label="Giỏ hàng" aria-hidden="true">
+			<div class="mini-cart-heading">
+				<h2>Giỏ hàng</h2>
+				<button id="closeCart" class="icon-button" type="button" aria-label="Đóng giỏ hàng">×</button>
+			</div>
+			<div id="cartItems"></div>
+			<div class="cart-total">
+				<span>Tổng tiền</span>
+				<strong id="cartTotal">$0.00</strong>
+			</div>
+			<button id="checkoutButton" class="button button-primary full-button" type="button">Thanh toán</button>
+		</aside>
+		<div id="quickView" class="quick-view" hidden>
+			<div class="quick-view-card" role="dialog" aria-modal="true" aria-labelledby="quickViewTitle">
+				<button id="closeQuickView" class="icon-button" type="button" aria-label="Đóng xem nhanh">×</button>
+				<div id="quickViewContent"></div>
+			</div>
+		</div>
+		<div id="reviewsModal" class="quick-view" hidden>
+			<div class="quick-view-card" role="dialog" aria-modal="true" aria-labelledby="reviewsTitle">
+				<button id="closeReviews" class="icon-button" type="button" aria-label="Đóng đánh giá">×</button>
+				<h2 id="reviewsTitle">Chi tiết đánh giá</h2>
+				<div id="reviewsContent"></div>
+			</div>
+		</div>
+		<div id="checkoutModal" class="quick-view" hidden>
+			<div class="quick-view-card" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+				<button id="closeCheckout" class="icon-button" type="button" aria-label="Đóng thanh toán">×</button>
+				<h2 id="checkoutTitle">Thông tin giao hàng</h2>
+				<form id="checkoutForm" novalidate>
+					<label for="checkoutName">Họ và tên</label>
+					<input id="checkoutName" name="name" required minlength="2">
+					<small class="field-error" data-error="name"></small>
+					<label for="checkoutPhone">Số điện thoại</label>
+					<input id="checkoutPhone" name="phone" required inputmode="tel" placeholder="0901234567">
+					<small class="field-error" data-error="phone"></small>
+					<label for="checkoutEmail">Email</label>
+					<input id="checkoutEmail" name="email" required type="email" placeholder="email@example.com">
+					<small class="field-error" data-error="email"></small>
+					<label for="checkoutAddress">Địa chỉ</label>
+					<textarea id="checkoutAddress" name="address" required minlength="8"></textarea>
+					<small class="field-error" data-error="address"></small>
+					<button class="button button-primary full-button" type="submit">Xác nhận thanh toán</button>
+					<p id="checkoutMessage" role="status"></p>
+				</form>
+			</div>
+		</div>
+		<div id="loginModal" class="quick-view" hidden>
+			<div class="quick-view-card small-modal" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+				<button id="closeLogin" class="icon-button" type="button" aria-label="Đóng đăng nhập">×</button>
+				<h2 id="loginTitle">Đăng nhập quản trị</h2>
+				<form id="loginForm">
+					<label for="username">Username hoặc Email</label>
+					<input id="username" name="username" autocomplete="username" required>
+					<label for="password">Mật khẩu</label>
+					<input id="password" name="password" type="password" required>
+					<p id="loginMessage" class="field-error"></p>
+					<button class="button button-primary full-button" type="submit">Đăng nhập</button>
+				</form>
+			</div>
+		</div>
+		<div id="customerLoginModal" class="quick-view" hidden>
+			<div class="quick-view-card small-modal" role="dialog" aria-modal="true" aria-labelledby="customerLoginTitle">
+				<button id="closeCustomerLogin" class="icon-button" type="button" aria-label="Đóng đăng nhập khách hàng">×</button>
+				<h2 id="customerLoginTitle">Đăng nhập khách hàng</h2>
+				<form id="customerLoginForm">
+					<label for="customerUsername">Username hoặc Email</label>
+					<input id="customerUsername" name="username" autocomplete="username" required>
+					<label for="customerPassword">Mật khẩu</label>
+					<input id="customerPassword" name="password" type="password" required>
+					<p id="customerLoginMessage" class="field-error"></p>
+					<button class="button button-primary full-button" type="submit">Đăng nhập</button>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<p>Phạm Hiền Trâm - MSSV K244161815</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews>
+	<review><id>1</id><product_id>1</product_id><customer_id>1</customer_id><rating>5</rating><comment>Ba lô chắc chắn, đúng mô tả.</comment><date>2026-10-01</date></review>
+	<review><id>2</id><product_id>1</product_id><customer_id>2</customer_id><rating>4</rating><comment>Màu đẹp, giao hàng nhanh.</comment><date>2026-10-03</date></review>
+	<review><id>3</id><product_id>17</product_id><customer_id>3</customer_id><rating>5</rating><comment>Áo khoác vừa vặn và nhẹ.</comment><date>2026-10-05</date></review>
+	<review><id>4</id><product_id>17</product_id><customer_id>4</customer_id><rating>4</rating><comment>Chất liệu tốt, màu giống ảnh.</comment><date>2026-10-07</date></review>
+	<review><id>5</id><product_id>3</product_id><customer_id>5</customer_id><rating>5</rating><comment>Áo khoác đẹp và dễ mặc.</comment><date>2026-10-08</date></review>
+</reviews>

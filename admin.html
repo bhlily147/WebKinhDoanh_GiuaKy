@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Dashboard quản trị</title>
+		<link rel="stylesheet" href="admin.css">
+	</head>
+	<body class="admin-body">
+		<div class="admin-shell">
+			<aside class="admin-sidebar">
+				<a class="admin-brand" href="admin.html"><span>◆</span> Admin Panel</a>
+				<nav class="admin-nav" aria-label="Điều hướng quản trị">
+					<a class="active" href="#overview">Tổng quan</a>
+					<a href="#orders">Đơn hàng</a>
+					<a href="#customers">Khách hàng</a>
+					<a href="index.html">Xem cửa hàng</a>
+				</nav>
+				<div class="admin-user"><span class="admin-avatar">A</span><div><strong>Quản trị viên</strong><small>Đang hoạt động</small></div></div>
+				<button id="adminLogout" class="admin-logout" type="button">Đăng xuất</button>
+			</aside>
+			<main class="admin-main">
+				<header class="admin-topbar"><div><p class="admin-kicker">Thứ năm, 05 tháng 11, 2026</p><h1>Tổng quan</h1></div><div class="admin-top-actions"><span class="admin-status">● Hệ thống ổn định</span><button class="admin-notification" type="button" aria-label="Thông báo">♢</button></div></header>
+				<section id="overview" class="admin-stats" aria-label="Chỉ số tổng quan">
+					<div class="admin-score-card blue"><span class="score-icon">↗</span><p>Tổng doanh thu</p><strong id="revenueStat">$0</strong><small>+12.5% so với tháng trước</small></div>
+					<div class="admin-score-card purple"><span class="score-icon">▣</span><p>Tổng đơn hàng</p><strong id="orderStat">0</strong><small>+8.2% so với tháng trước</small></div>
+					<div class="admin-score-card orange"><span class="score-icon">♙</span><p>Khách hàng</p><strong id="customerStat">0</strong><small>+5.4% so với tháng trước</small></div>
+					<div class="admin-score-card green"><span class="score-icon">★</span><p>Sản phẩm</p><strong id="productStat">0</strong><small>Đang kinh doanh</small></div>
+				</section>
+				<section class="admin-chart-grid">
+					<div class="admin-panel chart-panel"><div class="panel-heading"><div><h2>Doanh thu theo ngày</h2><p>Thống kê từ dữ liệu hóa đơn</p></div><select id="chartPeriod" aria-label="Khoảng thời gian"><option>7 ngày gần nhất</option></select></div><canvas id="revenueChart" height="250"></canvas></div>
+					<div class="admin-panel"><div class="panel-heading"><div><h2>Trạng thái đơn hàng</h2><p>Tổng quan xử lý</p></div></div><div id="orderStatusChart" class="status-chart"></div></div>
+				</section>
+				<section id="orders" class="admin-panel orders-panel"><div class="panel-heading"><div><h2>Đơn hàng gần đây</h2><p>Theo dõi các giao dịch mới nhất</p></div><span id="orderCountLabel" class="panel-label">0 đơn hàng</span></div><div class="admin-table-wrap"><table><thead><tr><th>Mã đơn</th><th>Khách hàng</th><th>Ngày đặt</th><th>Giá trị</th><th>Trạng thái</th></tr></thead><tbody id="adminOrders"></tbody></table></div></section>
+				<section id="customers" class="admin-panel"><div class="panel-heading"><div><h2>Khách hàng mới</h2><p>Danh sách tài khoản trong hệ thống</p></div></div><div id="customerList" class="customer-list"></div></section>
+			</main>
+		</div>
+		<script src="admin.js"></script>
+	</body>
+</html>

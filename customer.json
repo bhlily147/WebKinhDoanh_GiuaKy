@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"name": "Nguyen Van An",
+		"email": "an.nguyen@example.com",
+		"phone": "0901234567",
+		"address": "123 Nguyen Hue, Quan 1, TP.HCM",
+		"username": "an",
+		"password": "123456",
+		"status": "active"
+	},
+	{
+		"id": 2,
+		"name": "Tran Thi Binh",
+		"email": "binh.tran@example.com",
+		"phone": "0912345678",
+		"address": "45 Le Loi, Quan 1, TP.HCM",
+		"username": "binh",
+		"password": "123456",
+		"status": "active"
+	},
+	{
+		"id": 3,
+		"name": "Le Van Cuong",
+		"email": "cuong.le@example.com",
+		"phone": "0923456789",
+		"address": "78 Vo Van Tan, Quan 3, TP.HCM",
+		"username": "cuong",
+		"password": "123456",
+		"status": "active"
+	},
+	{
+		"id": 4,
+		"name": "Pham Thi Dung",
+		"email": "dung.pham@example.com",
+		"phone": "0934567890",
+		"address": "12 Dien Bien Phu, Binh Thanh, TP.HCM",
+		"username": "dung",
+		"password": "123456",
+		"status": "active"
+	},
+	{
+		"id": 5,
+		"name": "Hoang Minh Duc",
+		"email": "duc.hoang@example.com",
+		"phone": "0945678901",
+		"address": "56 Cach Mang Thang Tam, Quan 10, TP.HCM",
+		"username": "duc",
+		"password": "123456",
+		"status": "active"
+	},
+	{
+		"id": 6,
+		"name": "Vo Thi Huong",
+		"email": "huong.vo@example.com",
+		"phone": "0956789012",
+		"address": "89 Phan Xich Long, Phu Nhuan, TP.HCM",
+		"username": "huong",
+		"password": "123456",
+		"status": "active"
+	},
+	{
+		"id": 7,
+		"name": "Doan Minh Khoa",
+		"email": "khoa.doan@example.com",
+		"phone": "0967890123",
+		"address": "21 Nguyen Van Cu, Quan 5, TP.HCM",
+		"username": "khoa",
+		"password": "123456",
+		"status": "active"
+	},
+	{
+		"id": 8,
+		"name": "Bui Ngoc Mai",
+		"email": "mai.bui@example.com",
+		"phone": "0978901234",
+		"address": "34 Truong Dinh, Quan 3, TP.HCM",
+		"username": "mai",
+		"password": "123456",
+		"status": "active"
+	},
+	{
+		"id": 9,
+		"name": "Nguyen Quoc Bao",
+		"email": "bao.nguyen@example.com",
+		"phone": "0989012345",
+		"address": "67 Nguyen Oanh, Go Vap, TP.HCM",
+		"username": "bao",
+		"password": "123456",
+		"status": "active"
+	}
+]

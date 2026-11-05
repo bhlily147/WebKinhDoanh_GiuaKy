@@ -1,0 +1,68 @@
+[
+	{
+		"id": 1,
+		"employeeCode": "EMP001",
+		"name": "Nguyen Van An",
+		"email": "an.nguyen@example.com",
+		"phone": "0901234567",
+		"username": "admin",
+		"password": "123456",
+		"role": "admin",
+		"status": "active"
+	},
+	{
+		"id": 2,
+		"employeeCode": "EMP002",
+		"name": "Tran Thi Binh",
+		"email": "binh.tran@example.com",
+		"phone": "0912345678",
+		"username": "binh",
+		"password": "123456",
+		"role": "sales",
+		"status": "active"
+	},
+	{
+		"id": 3,
+		"employeeCode": "EMP003",
+		"name": "Le Van Cuong",
+		"email": "cuong.le@example.com",
+		"phone": "0923456789",
+		"username": "cuong",
+		"password": "123456",
+		"role": "sales",
+		"status": "active"
+	},
+	{
+		"id": 4,
+		"employeeCode": "EMP004",
+		"name": "Pham Thi Dung",
+		"email": "dung.pham@example.com",
+		"phone": "0934567890",
+		"username": "dung",
+		"password": "123456",
+		"role": "admin",
+		"status": "active"
+	},
+	{
+		"id": 5,
+		"employeeCode": "EMP005",
+		"name": "Nguyen Gia Han",
+		"email": "han.nguyen@example.com",
+		"phone": "0988123456",
+		"username": "han",
+		"password": "123456",
+		"role": "sales",
+		"status": "active"
+	},
+	{
+		"id": 6,
+		"employeeCode": "EMP006",
+		"name": "Le Thanh Son",
+		"email": "son.le@example.com",
+		"phone": "0999234567",
+		"username": "son",
+		"password": "123456",
+		"role": "sales",
+		"status": "active"
+	}
+]
